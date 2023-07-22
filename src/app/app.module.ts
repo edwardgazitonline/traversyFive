@@ -19,6 +19,9 @@ import { TasksComponent } from './components/tasks/tasks.component';
     HeaderComponent,
     ButtonComponent,
     TasksComponent
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   ],
   imports: [
