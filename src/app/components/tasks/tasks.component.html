@@ -1,1 +1,5 @@
-<p *ngFor="let task of tasks">{{task.text}}<br/> {{task.day}}</p>
+<app-task-item
+*ngFor="let task of tasks"
+[task]="task"                              >
+ {{task.text}}<br/> {{task.day}}
+</app-task-item>
